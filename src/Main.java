@@ -21,11 +21,6 @@ public class Main {
         for(int i=0;i<arr.length;i++) {
             System.out.print(" #"+(i+1)+": ");
             int temp = s.nextInt();
-            if (temp < 0) {
-                System.out.println("You have entered negative number, Put the non-negative number");
-                i-=1;
-                continue;
-            }
             arr[i] = temp;
         }
         s.close();
